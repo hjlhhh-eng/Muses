@@ -166,8 +166,8 @@ python main.py
 * Open the command prompt window
 * Open the Apollo container and run it:
 ```
-docker start apollo-dev-[username]/Apollo container name  
-docker exec -it apollo-dev-[username]/Apollo container name /bin/bash
+docker start <apollo_container_name>  
+docker exec -it <apollo_container_name> /bin/bash
 ./scripts/bootstrap.sh
 ```
 * Enter it in the website area of the browser to open the Dreamview website.
@@ -185,11 +185,11 @@ If you want to close Dreamview, run
 
 * Open the Carla container:
 ```
-docker start carla-simulator-1/carla container name
+docker start <carla_container_name>
 ```
 * Open a new command-line prompt window, run
 ```
-docker exec -it apollo-dev-username/Apollo container name /bin/bash
+docker exec -it <apollo_container_name> /bin/bash
 ```
 Run the bridge
 ```
@@ -198,13 +198,13 @@ python main.py
 ```
 If an error occurs, you can try using the statement: 
 ```
-source /Apollo/cyber/setup.bash
+source /apollo/cyber/setup.bash
 ```
 Next, experiments can be conducted.
 * Choose a path to save the downloaded dataset
 * Open DOS in the selected path and use the command:
 ```
-git lfs clone https://github.com/hjlltnh/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
+git clone https://github.com/hjlltnh/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
 ```
 Please note that the 'dataset.zip' downloaded using the 'git clone' method cannot be used.
 * Extract the dataset file from the folder, and select the timestamp folder you want to use to test the auto-drive-system according to the classified dataset.
