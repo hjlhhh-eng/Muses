@@ -1,0 +1,9 @@
+Frame,Timestamp,ActorID,ActorType,DeltaAcceleration(m/s),ChangePos,MayRapidAcceleration/MayRapiDeceleration
+866,38.87525403033942,135,vehicle.lincoln.mkz_2017,19.01152052882855,"Transform(Location(x=145.644760, y=109.744286, z=0.220350), Rotation(pitch=0.886545, yaw=0.014699, roll=-1.209320))",MayRapidAcceleration
+867,38.92525403108448,135,vehicle.lincoln.mkz_2017,-8.021937656507694,"Transform(Location(x=145.646393, y=109.745430, z=0.247392), Rotation(pitch=1.182948, yaw=0.009675, roll=-1.351532))",MayRapiDeceleration
+899,40.525254054926336,135,vehicle.lincoln.mkz_2017,6.902036119497894,"Transform(Location(x=145.666153, y=109.735054, z=0.253396), Rotation(pitch=0.041780, yaw=-0.055969, roll=0.013586))",MayRapidAcceleration
+1016,46.37525414209813,135,vehicle.lincoln.mkz_2017,16.027865036493615,"Transform(Location(x=161.994080, y=109.522926, z=0.254823), Rotation(pitch=-0.122588, yaw=-0.816864, roll=-0.000183))",MayRapidAcceleration
+1017,46.42525414284319,135,vehicle.lincoln.mkz_2017,-19.139733190744415,"Transform(Location(x=162.007080, y=109.522865, z=0.255688), Rotation(pitch=-0.222166, yaw=-0.825958, roll=-0.000275))",MayRapiDeceleration
+1314,61.27525436412543,135,vehicle.lincoln.mkz_2017,6.052605821770618,"Transform(Location(x=188.468643, y=116.247749, z=0.259396), Rotation(pitch=-0.303711, yaw=64.793060, roll=-1.123535))",MayRapidAcceleration
+1792,85.17525472026318,135,vehicle.lincoln.mkz_2017,7.617337897069785,"Transform(Location(x=190.456299, y=141.799438, z=0.253954), Rotation(pitch=-0.022581, yaw=89.402664, roll=0.000395))",MayRapidAcceleration
+1793,85.22525472100824,135,vehicle.lincoln.mkz_2017,-7.0885786624791525,"Transform(Location(x=190.456299, y=141.802353, z=0.254005), Rotation(pitch=-0.028468, yaw=89.403015, roll=0.000448))",MayRapiDeceleration

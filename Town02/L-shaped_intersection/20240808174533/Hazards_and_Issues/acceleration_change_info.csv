@@ -1,0 +1,20 @@
+Frame,Timestamp,ActorID,ActorType,DeltaAcceleration(m/s),ChangePos,MayRapidAcceleration/MayRapiDeceleration
+716,33.525543332565576,135,vehicle.lincoln.mkz_2017,23.373874881701212,"Transform(Location(x=78.007187, y=302.991150, z=0.234128), Rotation(pitch=0.497627, yaw=179.990005, roll=-1.448974))",MayRapidAcceleration
+717,33.575543333310634,135,vehicle.lincoln.mkz_2017,-8.763405440744696,"Transform(Location(x=78.006256, y=302.996124, z=0.266801), Rotation(pitch=0.662248, yaw=179.982147, roll=-1.637939))",MayRapiDeceleration
+718,33.62554333405569,135,vehicle.lincoln.mkz_2017,-7.641428482215617,"Transform(Location(x=78.006500, y=302.996857, z=0.277984), Rotation(pitch=0.618911, yaw=179.985306, roll=-1.407714))",MayRapiDeceleration
+750,35.22554335789755,135,vehicle.lincoln.mkz_2017,6.250931225238561,"Transform(Location(x=78.002838, y=302.995514, z=0.253625), Rotation(pitch=0.015491, yaw=-179.999878, roll=-0.000397))",MayRapidAcceleration
+1073,51.3755435985513,135,vehicle.lincoln.mkz_2017,18.288058404021083,"Transform(Location(x=51.022556, y=302.632751, z=0.254748), Rotation(pitch=-0.113975, yaw=-170.584747, roll=0.016937))",MayRapidAcceleration
+1074,51.42554359929636,135,vehicle.lincoln.mkz_2017,-11.382585282478004,"Transform(Location(x=51.017979, y=302.631958, z=0.255427), Rotation(pitch=-0.192106, yaw=-170.541611, roll=0.054427))",MayRapiDeceleration
+1075,51.47554360004142,135,vehicle.lincoln.mkz_2017,-11.709441581484377,"Transform(Location(x=51.017998, y=302.631958, z=0.255448), Rotation(pitch=-0.194578, yaw=-170.541611, roll=0.052967))",MayRapiDeceleration
+1159,55.675543662626296,135,vehicle.lincoln.mkz_2017,17.943328226000663,"Transform(Location(x=47.679829, y=300.258575, z=0.254478), Rotation(pitch=-0.082857, yaw=-137.594452, roll=0.055055))",MayRapidAcceleration
+1160,55.725543663371354,135,vehicle.lincoln.mkz_2017,-19.8555557964409,"Transform(Location(x=47.669891, y=300.245026, z=0.254926), Rotation(pitch=-0.134466, yaw=-137.388077, roll=0.094037))",MayRapiDeceleration
+1166,56.0255436678417,135,vehicle.lincoln.mkz_2017,17.043631752627736,"Transform(Location(x=47.579807, y=300.072113, z=0.254300), Rotation(pitch=-0.062442, yaw=-134.756393, roll=0.074393))",MayRapidAcceleration
+1167,56.07554366858676,135,vehicle.lincoln.mkz_2017,-15.61839746278874,"Transform(Location(x=47.578548, y=300.069824, z=0.254423), Rotation(pitch=-0.076628, yaw=-134.728973, roll=0.087308))",MayRapiDeceleration
+1579,76.67554397555068,135,vehicle.lincoln.mkz_2017,9.996668778663217,"Transform(Location(x=45.292534, y=278.101959, z=0.253986), Rotation(pitch=-0.026242, yaw=-92.123283, roll=0.000750))",MayRapidAcceleration
+1580,76.72554397629574,135,vehicle.lincoln.mkz_2017,-9.603693006907214,"Transform(Location(x=45.292439, y=278.098999, z=0.254065), Rotation(pitch=-0.035367, yaw=-92.122742, roll=0.000759))",MayRapiDeceleration
+1596,77.52554398821667,135,vehicle.lincoln.mkz_2017,9.070869535404748,"Transform(Location(x=45.285370, y=277.845490, z=0.253986), Rotation(pitch=-0.026269, yaw=-92.111992, roll=0.001032))",MayRapidAcceleration
+1597,77.57554398896173,135,vehicle.lincoln.mkz_2017,-8.214784129846217,"Transform(Location(x=45.285271, y=277.842499, z=0.254046), Rotation(pitch=-0.033202, yaw=-92.111443, roll=0.000888))",MayRapiDeceleration
+1636,79.52554401801899,135,vehicle.lincoln.mkz_2017,7.510980146112104,"Transform(Location(x=45.272617, y=277.421356, z=0.253932), Rotation(pitch=-0.020053, yaw=-92.021629, roll=0.000441))",MayRapidAcceleration
+1637,79.57554401876405,135,vehicle.lincoln.mkz_2017,-7.939458395809497,"Transform(Location(x=45.272533, y=277.418427, z=0.253995), Rotation(pitch=-0.027280, yaw=-92.021088, roll=0.000441))",MayRapiDeceleration
+1673,81.37554404558614,135,vehicle.lincoln.mkz_2017,6.9369811008744335,"Transform(Location(x=45.262623, y=277.070160, z=0.253898), Rotation(pitch=-0.016147, yaw=-91.896484, roll=0.000470))",MayRapidAcceleration
+1674,81.4255440463312,135,vehicle.lincoln.mkz_2017,-6.9147714396316475,"Transform(Location(x=45.262539, y=277.067322, z=0.253945), Rotation(pitch=-0.021515, yaw=-91.895927, roll=0.000398))",MayRapiDeceleration

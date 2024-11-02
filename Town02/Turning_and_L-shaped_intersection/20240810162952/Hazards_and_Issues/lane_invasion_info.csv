@@ -1,0 +1,9 @@
+Frame,Timestamp,ActorID,ActorType,LaneMarking,LaneInvasionPos
+2835,130.13453811965883,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':White,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':NONE,'LaneMarking_Width':0.0)","Location(x=187.701477, y=113.997772, z=0.253051)"
+2876,132.1845381502062,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':White,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':NONE,'LaneMarking_Width':0.0)","Location(x=189.242325, y=119.587265, z=0.253474)"
+3478,162.28453859873116,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=167.549240, y=188.484375, z=0.253875)"
+3579,167.33453867398202,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=158.255783, y=188.564026, z=0.253790)"
+3580,167.38453867472708,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=158.189056, y=188.563889, z=0.253818)"
+3581,167.43453867547214,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=158.123932, y=188.563919, z=0.253841)"
+3601,168.4345386903733,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=156.668228, y=188.561142, z=0.253351)"
+3620,169.3845387045294,135,vehicle.lincoln.mkz_2017,"('LaneMarking_Color':Yellow,'LaneMarking_LaneChange':NONE,'LaneMarking_Type':Broken,'LaneMarking_Width':0.125)","Location(x=153.571213, y=188.550858, z=0.253447)"
