@@ -206,8 +206,8 @@ Next, experiments can be conducted.
 ```
 git clone https://github.com/hjlltnh/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
 ```
-Please note that the 'dataset.zip' downloaded using the 'git clone' method cannot be used.
-* Extract the dataset file from the folder, and select the timestamp folder you want to use to test the auto-drive-system according to the classified dataset.
+
+* Based on the address and extraction code of the dataset file, go to Baidu Netdisk and paste the address and enter the extraction code to obtain the complete dataset, and select the timestamp folder you want to use to test the auto-drive-system according to the classified dataset.
 * Place the timestamp file in the path:/apollo/modules/carla_bridge, copy the log file of the timestamp file corresponding to the dataset you want to use, such as 20240810145622_recording.log, to a certain location in the Carla container， We need to first open the Carla container,and then
 ```
 docker cp /apollo/modules/carla_bridge/20240810145622_recording.log carla-simulator-1:/home/carla/.config/Epic/CarlaUE4/Saved/
