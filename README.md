@@ -204,7 +204,7 @@ Next, experiments can be conducted.
 * Choose a path to save the downloaded dataset
 * Open DOS in the selected path and use the command:
 ```
-git clone https://github.com/hjlltnh/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
+git clone https://github.com/hjlhhh-eng/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
 ```
 
 * Based on the address and extraction code of the dataset file, go to Baidu Netdisk and paste the address and enter the extraction code to obtain the complete dataset, and select the timestamp folder you want to use to test the auto-drive-system according to the classified dataset.
