@@ -244,6 +244,7 @@ Run the bridge
 cd /apollo/modules/carla_bridge  
 python main.py
 ```
+And select the desired data to experiment again.
 
 ## Citation
 ```
