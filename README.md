@@ -163,6 +163,7 @@ python main.py
 
 ### Data Use
 #### start a co-simulation
+* Set the map you want to test in /aollo/modules/config.
 * Open the command prompt window
 * Open the Apollo container and run it:
 ```
@@ -172,10 +173,11 @@ docker exec -it <apollo_container_name> /bin/bash
 ```
 * Enter it in the website area of the browser to open the Dreamview website.
 * Open apollo client: http://localhost:8888.
+* Select the map you want to test in Dreamview.
 * If dreamview doesn't display the map, switch to carla_town04 and then switch back.
 * (Optional) Select "Task" in the sidebar and turn on "Camera Sensor" in "Others".
 * (Optional) Select "Layer Menu" in the sidebar and turn on "Point Cloud" in "Perception".
-* Select "Module Controller" in the sidebar and turn on "Routing", "Planning", "Control", "Predict" module.
+* Select "Module Controller" in the sidebar and turn on "Routing", "Planning", "Control", "Predict" module.(The purpose of opening the module is to adjust and test the module function based on the running trajectory of the historical dataset and the current situation. If there is no need to test Apollo, but only to view the historical data trajectory, the module button does not need to be opened.)
 
 If you want to close Dreamview, run
 ```
@@ -226,6 +228,22 @@ and run
 python replay.py
 ```
 The other files with timestamps record the problems that occurred with Apollo, the information data of the cars controlled by Apollo, and the actor data in this timestamp folder.
+After using a data, it is necessary to close the carla simulator container and repeat the steps:
+* Open a new command prompt window:
+
+* Open the Carla container:
+```
+docker start <carla_container_name>
+```
+* Open a new command-line prompt window, run
+```
+docker exec -it <apollo_container_name> /bin/bash
+```
+Run the bridge
+```
+cd /apollo/modules/carla_bridge  
+python main.py
+```
 
 ## Citation
 ```
@@ -246,6 +264,9 @@ The other files with timestamps record the problems that occurred with Apollo, t
   pages={954--960},
   year={2018}
 }
+```
+```
+https://developer.apollo.auto/Apollo-Homepage-Document/Apollo_Doc_CN_6_0/%E4%B8%8A%E6%9C%BA%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E4%B8%8A%E6%9C%BA%E5%AE%9E%E8%B7%B5Apollo%E8%A7%84%E5%88%92%E8%83%BD%E5%8A%9B/apollo%E8%A7%84%E5%88%92%E6%A8%A1%E5%9D%97%E5%AE%9E%E8%B7%B5
 ```
 ```
 https://blog.csdn.net/weixin_46336532/article/details/135017708
