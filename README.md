@@ -165,35 +165,35 @@ python main.py
 #### start a co-simulation
 * Set the map you want to test in /aollo/modules/config.
 * Open the command prompt window
-* Open the Apollo container and run it:
+1.Open the Apollo container and run it:
 ```
 docker start <apollo_container_name>  
 docker exec -it <apollo_container_name> /bin/bash
 ./scripts/bootstrap.sh
 ```
-* Enter it in the website area of the browser to open the Dreamview website.
-* Open apollo client: http://localhost:8888.
-* Select the map you want to test in Dreamview.
+2.Enter it in the website area of the browser to open the Dreamview website.
+3.Open apollo client: http://localhost:8888.
+4.Select the map you want to test in Dreamview.
 * If dreamview doesn't display the map, switch to carla_town04 and then switch back.
-* (Optional) Select "Task" in the sidebar and turn on "Camera Sensor" in "Others".
-* (Optional) Select "Layer Menu" in the sidebar and turn on "Point Cloud" in "Perception".
-* Select "Module Controller" in the sidebar and turn on "Routing", "Planning", "Control", "Predict" module.(The purpose of opening the module is to adjust and test the module function based on the running trajectory of the historical dataset and the current situation. If there is no need to test Apollo, but only to view the historical data trajectory, the module button does not need to be opened.)
+5.(Optional) Select "Task" in the sidebar and turn on "Camera Sensor" in "Others".
+6.(Optional) Select "Layer Menu" in the sidebar and turn on "Point Cloud" in "Perception".
+7.Select "Module Controller" in the sidebar and turn on "Routing", "Planning", "Control", "Predict" module.(The purpose of opening the module is to adjust and test the module function based on the running trajectory of the historical dataset and the current situation. If there is no need to test Apollo, but only to view the historical data trajectory, the module button does not need to be opened.)
 
 If you want to close Dreamview, run
 ```
 ./scripts/bootstrap.sh stop
 ```
-* Open a new command prompt window:
+8.Open a new command prompt window:
 
-* Open the Carla container:
+9.Open the Carla container:
 ```
 docker start <carla_container_name>
 ```
-* Open a new command-line prompt window, run
+10.Open a new command-line prompt window, run
 ```
 docker exec -it <apollo_container_name> /bin/bash
 ```
-Run the bridge
+11.Run the bridge
 ```
 cd /apollo/modules/carla_bridge  
 python main.py
@@ -228,22 +228,8 @@ and run
 python replay.py
 ```
 The other files with timestamps record the problems that occurred with Apollo, the information data of the cars controlled by Apollo, and the actor data in this timestamp folder.
-After using a data, it is necessary to close the carla simulator container and repeat the steps:
-* Open a new command prompt window:
 
-* Open the Carla container:
-```
-docker start <carla_container_name>
-```
-* Open a new command-line prompt window, run
-```
-docker exec -it <apollo_container_name> /bin/bash
-```
-Run the bridge
-```
-cd /apollo/modules/carla_bridge  
-python main.py
-```
+Due to actor ID matching issue,after using a data, it is necessary to Use 'Ctrl+C' to disconnect the bridge, exit the Apollo container where the bridge connection is located (step 10), and repeat steps 9-11.
 And select the desired data to experiment again.
 
 ## Citation
