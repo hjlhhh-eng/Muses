@@ -163,7 +163,7 @@ python main.py
 
 ### Data Use
 #### start a co-simulation
-* Set the map you want to test in /aollo/modules/config.
+* Set the map you want to test in /aollo/modules/carla_bridge/config.
 * Open the command prompt window
 1.Open the Apollo container and run it:
 ```
