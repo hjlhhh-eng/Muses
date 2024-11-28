@@ -169,7 +169,7 @@ python main.py
 git clone https://github.com/hjlhhh-eng/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
 ```
 * According to the Baidu Netdisk link provided in /dataset/map.txt, obtain the map.zip (the map format applicable to Apollo, including all maps of Carla simulator Town01-Town12 (except for Town08 and Town09)), replace the map folder in path:/apollo/modules/ to obtain more testable driving scenarios.
-* Set the map you want to test in /aollo/modules/carla_bridge/config.
+* Set the map you want to test in /apollo/modules/carla_bridge/config.
 * Open the command prompt window:
 1.Open the Apollo container and run it:
 ```
