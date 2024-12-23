@@ -6,6 +6,8 @@ The fine-grained division includes but is not limited to road structures such as
 
 In this way, we aim to provide more comprehensive data to support the safety test of the auto-drive system in different driving situations. We also offer data on the problem exposure of the monitoring system, which can visually show the status of the auto-drive system when the problem is exposed.
 
+In addition, in looking at the collected data, it was found that there were varying degrees of dropped frames on each map. When we collected the data, we set Carla to synchronisation mode, where fixed\_delta\_seconds was set to 0.05, which adheres to the default settings of the bridge, but despite this, there were still dropped frames. After sorting out the information, I found out that even though it has been set to synchronous mode and fixed\_delta\_seconds, it doesn't mean that the world will be updated every 0.05ms. In fact, Carla's server waits for the client to finish processing its task before updating the world, which means that even though 0.05ms has elapsed, if the client's processing time takes 0.1ms, the world is updated in 0.1ms.Fortunately, our dataset is able to collect multiple exposures and has the diversity, adequacy, completeness, the requirements as a dataset.
+
 ## Table of Contents
 
 1.[Introduction](#introduction)  
