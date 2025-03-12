@@ -6,9 +6,7 @@ Muses, based on ten simulation maps (Town01-Town12,except Town08,Town09) from Ca
 
 Muses have the characteristics of:
     Driving scenario refinement: We redefine driving scenarios by categorising them according to road structure/features, roadside elements and weather. In contrast to the traditional approach of broadly categorising scenarios into urban or rural environments, we decompose these scenarios into more detailed categories such as BFPRS(MD, BCFLMPRS(AAMRBMD, FLMPRS(AAMRMD, BCLPRS(MDUTC), etc. , so that a more comprehensive presentation of driving scenarios can be made, and thus a more refined test of ADS can be conducted for verifying the safety and reliability of ADS.
-
     Fine-grained multi-scenario benchmark: We constructed a fine-grained benchmark, Muses, specifically for Apollo. The benchmark is organised by road structure, roadside elements and map categories (representing weather), and each piece of data consists of a video file, a playback log file, a car driving information file, an actor information file, and a folder documenting whether there is a problem with Apollo in eight ways. 
-
     Diverse driving behavioral anomalies and Visualization: Our benchmark includes a visualisation feature where each data contains a subfolder recording the occurrence of the ‘eight major faults/abnormal driving behaviours’: collision, driving in reverse,  speeding, Red light running, turning too sharp/fast or oversteering/Rapid cornering, crossing lane lines, no response, rapid/sudden acceleration, rapid/sudden deceleration, and so on. These unexpected behaviours are recorded frame by frame to ensure comprehensive fault tracking.
 ## Table of Contents
 
