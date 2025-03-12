@@ -25,19 +25,19 @@ The dataset consists of: video files (played using kazam software), car driving 
 ### Driving scene display
 Some example videos are shown below:
 
-### Straight Road
+### BFLPRS(MD)
 ![](./examples/straight.gif)  
 
-### Common Road
+### BFMPRS(MD)
 ![](./examples/common_road.gif)  
 
-### Ramp
+### BFPRS(MDRT)
 ![](./examples/ramp.gif)  
 
-### Tunnel
+### BFPRS(MDT)
 ![](./examples/Tunnel.gif)  
 
-### circle
+### BFPRS(MDT)
 ![](./examples/circle.gif)
 ## Data download
 
@@ -173,7 +173,7 @@ python main.py
 ```
 git clone https://github.com/hjlhhh-eng/Fine-grained-classification-test-dataset-of-automatic-driving-system.git
 ```
-* According to the Baidu Netdisk link provided in /dataset/map.txt, obtain the map.zip (the map format applicable to Apollo, including all maps of Carla simulator Town01-Town12 (except for Town08 and Town09)), replace the map folder in path:/apollo/modules/ to obtain more testable driving scenarios.
+* According to the Baidu Netdisk link provided in /dataset/map.txt, obtain the map.zip (the map format applicable to Apollo, including all maps of Carla simulator Town01-Town12 (except for Town08 and Town09)), and copy the source files of the Carla maps you want to test to /apollo/modules/ map/data for a testable driving scenario.
 * Set the map you want to test in /apollo/modules/carla_bridge/config.
 * Open the command prompt window:
 
@@ -240,7 +240,7 @@ and run
 ```
 python replay.py
 ```
-The other files with timestamps record the problems that occurred with Apollo, the information data of the cars controlled by Apollo, and the actor data in this timestamp folder.
+Timestamps folder also record the problems that occurred with Apollo, the information data of the cars controlled by Apollo, and the actor data in this timestamp folder.
 
 Due to actor ID matching issue,after using a data, it is necessary to Use 'Ctrl+C' to disconnect the bridge, exit the Apollo container where the bridge connection is located (step 10), and stop carla:
 ```
