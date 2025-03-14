@@ -1,6 +1,0 @@
-Frame,Timestamp,ActorID,ActorType,DeltaAcceleration(m/s),ChangePos,MayRapidAcceleration/MayRapiDeceleration
-1546,63.56100822519511,135,vehicle.lincoln.mkz_2017,23.373712392284045,"Transform(Location(x=164.122787, y=306.878845, z=0.234127), Rotation(pitch=0.497620, yaw=-0.010010, roll=-1.448944))",MayRapidAcceleration
-1547,63.61100822594017,135,vehicle.lincoln.mkz_2017,-8.763353779915397,"Transform(Location(x=164.123703, y=306.873871, z=0.266801), Rotation(pitch=0.662228, yaw=-0.017853, roll=-1.637909))",MayRapiDeceleration
-1548,63.661008226685226,135,vehicle.lincoln.mkz_2017,-7.641332332259376,"Transform(Location(x=164.123459, y=306.873108, z=0.277984), Rotation(pitch=0.618890, yaw=-0.014679, roll=-1.407684))",MayRapiDeceleration
-2312,101.86100879590958,135,vehicle.lincoln.mkz_2017,8.459239308586701,"Transform(Location(x=193.830139, y=276.558014, z=0.253946), Rotation(pitch=-0.021672, yaw=-88.856956, roll=-0.000488))",MayRapidAcceleration
-2313,101.91100879665464,135,vehicle.lincoln.mkz_2017,-8.707635768607533,"Transform(Location(x=193.830215, y=276.555084, z=0.254013), Rotation(pitch=-0.029418, yaw=-88.857330, roll=-0.000397))",MayRapiDeceleration

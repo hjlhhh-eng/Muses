@@ -1,2 +1,0 @@
-Frame,Timestamp,ActorID,ActorType,Other_ActorID,Other_ActorType,CollisionPos,CollisionDegree
-3873,183.95586428744718,135,vehicle.lincoln.mkz_2017,0,static.road,"Location(x=-9.057314, y=157.317871, z=0.279077)","Vector3D(x=0.001517, y=11.728027, z=310.292908)"
