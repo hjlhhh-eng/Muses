@@ -6,7 +6,16 @@ Muses, based on ten simulation maps (Town01-Town12,except Town08,Town09) from Ca
 
 Muses have the characteristics of:
 
-Driving scenario refinement: We redefine driving scenarios by categorising them according to road structure/features, roadside elements and weather. In contrast to the traditional approach of broadly categorising scenarios into urban or rural environments, we decompose these scenarios into more detailed categories such as BFPRS(MD, BCFLMPRS(AAMRBMD, FLMPRS(AAMRMD, BCLPRS(MDUTC), etc. , so that a more comprehensive presentation of driving scenarios can be made, and thus a more refined test of ADS can be conducted for verifying the safety and reliability of ADS.
+Driving scenario refinement: We redefine driving scenarios by categorising them according to road structure/features, roadside elements and weather. In contrast to the traditional approach of broadly categorising scenarios into urban or rural environments, we decompose these scenarios into more detailed categories such as BFPRS(MD, BCFLMPRS(AAMRBMD, FLMPRS(AAMRMD, BCLPRS(MDUTC), etc. , so that a more comprehensive presentation of driving scenarios can be made, and thus a more refined test of ADS can be conducted for verifying the safety and reliability of ADS. Among them, the string before the parentheses is the abbreviation of the roadside element word.  
+The complete abbreviation list of the roadside elements is:  
+![Roadedge Element](images/roadedge_element.jpg)
+
+The abbreviations in parentheses are road structure words.  
+The complete list of road structure word abbreviations is:  
+![Road Structure](images/road_structure.jpg)
+
+The final classification result is:  
+![Category Result](images/category_result.jpg)
 
 Fine-grained multi-scenario benchmark: We constructed a fine-grained benchmark, Muses, specifically for Apollo. The benchmark is organised by road structure, roadside elements and map categories (representing weather), and each piece of data consists of a video file, a playback log file, a car driving information file, an actor information file, and a folder documenting whether there is a problem with Apollo in eight ways. 
 
